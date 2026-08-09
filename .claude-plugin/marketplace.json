@@ -1,7 +1,7 @@
 {
   "name": "guardrails-automation",
   "owner": "mlarese",
-  "description": "Guardrails Automation: orchestrazione di processi ripetitivi fra sviluppo software, legale, fisco, design, architettura, medicina e paid media.",
+  "description": "Guardrails Automation: orchestrazione di processi ripetitivi fra sviluppo software, legale, fisco, design, architettura, medicina, paid media e revenue management.",
   "plugins": [
     {
       "name": "gau",
