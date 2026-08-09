@@ -1,0 +1,41 @@
+{
+  "name": "guardrails-automation",
+  "owner": "mlarese",
+  "description": "Guardrails Automation: orchestrazione di processi ripetitivi fra sviluppo software, legale, fisco, design, architettura, medicina e paid media.",
+  "plugins": [
+    {
+      "name": "gau",
+      "source": "./src",
+      "description": "Tredici figure Guardrails e i workflow necessari a instradare processi software, legali, fiscali, di design, architettura, medicina, web e paid media. `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo.",
+      "version": "1.19.0",
+      "author": "mlarese",
+      "homepage": "https://github.com/mlarese/bmad-module-guardrails-automation",
+      "repository": "https://github.com/mlarese/bmad-module-guardrails-automation",
+      "license": "MIT",
+      "skills": [
+        "src/skills/gau-setup",
+        "src/skills/gau-profile",
+        "src/skills/gau-board",
+        "src/skills/grl-agent-privacy",
+        "src/skills/grl-agent-security",
+        "src/skills/grl-agent-legal",
+        "src/skills/grl-agent-compliance",
+        "src/skills/grl-agent-fiscal",
+        "src/skills/grl-agent-ui-critic",
+        "src/skills/grl-agent-architecture",
+        "src/skills/grl-agent-ops",
+        "src/skills/grl-agent-health",
+        "src/skills/grl-agent-ai",
+        "src/skills/grl-agent-wordpress",
+        "src/skills/grl-agent-seo",
+        "src/skills/grl-agent-ads",
+        "src/skills/grl-legal-updates",
+        "src/skills/grl-fiscal-updates",
+        "src/skills/grl-mdsw",
+        "src/skills/grl-web",
+        "src/skills/grl-ads",
+        "src/skills/grl-automation"
+      ]
+    }
+  ]
+}
