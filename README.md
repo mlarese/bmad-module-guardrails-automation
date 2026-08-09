@@ -1,6 +1,6 @@
 # Guardrails Automation (`gau`)
 
-Quattordici figure Guardrails e i workflow necessari a instradare processi software, legali, fiscali, di design, architettura, medicina, web, paid media e revenue management. `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo.
+Quattordici figure Guardrails e dodici workflow necessari a instradare processi software, legali, fiscali, di design, architettura, medicina, web, paid media e revenue management. I tre workflow revenue coprono audit, scenari di pricing e preflight PMS/Channel Manager; `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo.
 
 Modulo BMad. È una porzione del bundle [Guardrails](https://github.com/mlarese/bmad-module-guardrails):
 stesse figure, stesso comportamento, solo l'area automation.
@@ -51,6 +51,9 @@ stesse figure, stesso comportamento, solo l'area automation.
 | `grl-ads` | Ottimizza con change set | Confronta periodi compatibili e propone modifiche a campagne e budget con soglie, approvazione, dry-run e rollback. |
 | `grl-ads` | Preflight della campagna | Controlla tracking, destinazione, claim, asset, policy, consenso, budget, autorizzazioni e rollback prima dell'azione. |
 | `grl-ads` | Applica un change set | Esegue solo un'azione esplicitamente autorizzata, delimitata e validata; altrimenti resta in awaiting_approval o blocked. |
+| `grl-revenue-audit` | Audita dati e prezzi revenue | Produce un audit read-only di export, qualità dati, KPI, domanda e floor economico, con fonti, formule, blocker e dati mancanti. |
+| `grl-revenue-plan` | Prepara un piano revenue | Costruisce scenari di pricing, domanda e profitto separando floor, mercato e forecast, con trigger di monitoraggio e senza pubblicare tariffe. |
+| `grl-revenue-preflight` | Preflight PMS e Channel Manager | Verifica contratto, mapping, semantica per-data/LOS, dry-run, response, riconciliazione, idempotenza e rollback prima dell'invio. |
 | `grl-automation` | Instrada un'automazione | Classifica lo scenario, sceglie agenti e workflow BMad e dichiara capability mancanti, scope e approvazioni. |
 | `grl-automation` | Prepara un piano eseguibile | Costruisce passi idempotenti con input, output, precondizioni, rischio, approvazione e rollback. |
 | `grl-automation` | Esegui controlli read-only | Raccoglie evidenze e confronti riproducibili senza modificare sistemi esterni. |
