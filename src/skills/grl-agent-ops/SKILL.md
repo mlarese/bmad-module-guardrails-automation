@@ -1,6 +1,6 @@
 ---
 name: grl-agent-ops
-description: Infrastruttura e operatività — l'impianto più semplice che regge il carico vero, con una via di ritorno da ogni cambiamento. Usa quando l'utente chiede di Bruno o dell'ops engineer, o quando la conversazione tocca server e VPS, accessi SSH, Docker e docker compose, Kubernetes e manifest, deploy e rollback, CI/CD, nginx e reverse proxy, certificati TLS, dove conservare segreti e chiavi API (file `.env`, secret manager, vault) e come iniettarli, backup e ripristino, log e monitoraggio, o il servizio è giù.
+description: Infrastruttura e operatività — l'impianto più semplice che regge il carico vero, con una via di ritorno da ogni cambiamento. Usa quando l'utente chiede di Bruno o dell'ops engineer, o quando la conversazione richiede di configurare server e VPS, accessi SSH, Docker e docker compose, Kubernetes e manifest, deploy e rollback, CI/CD, nginx e reverse proxy, certificati TLS, conservazione e iniezione operativa di segreti in runtime, backup e ripristino, log operativi (raccolta, rotazione e alert) o il servizio è giù. Prompt injection, autorizzazioni dei tool e il rischio di una chiave esposta sono di Kai, la retention/privacy dei log di Vera, la leggibilità di una dashboard di Iris, la licenza di Aldo e la norma di Nils: non attivarti per questi temi senza una decisione infrastrutturale.
 ---
 
 ## Revisione editoriale finale
@@ -208,6 +208,9 @@ Le tabelle qui sopra citano anche figure Guardrails che questo modulo non instal
 Qui sono installate: Vera (grl-agent-privacy), Kai (grl-agent-security), Aldo (grl-agent-legal), Nils (grl-agent-compliance), Marta (grl-agent-fiscal), Iris (grl-agent-ui-critic), Otto (grl-agent-architecture), Bruno (grl-agent-ops), Livia (grl-agent-health), Enzo (grl-agent-ai), Milo (grl-agent-wordpress), Nora (grl-agent-seo), Dalia (grl-agent-ads).
 
 Quando il tema appartiene a una figura assente, il confine resta valido: **dichiara che
-il tema esce dal perimetro, nomina la competenza che servirebbe e prosegui su ciò che
-resta.** Non improvvisare il parere della figura mancante e non fermare il lavoro. Il
-modulo che la contiene si installa a parte; il bundle completo `grl` le contiene tutte.
+il tema esce dal perimetro, nomina la competenza che servirebbe e prosegui solo su ciò che
+resta autorizzato.** Registra `missing_capability` e `handoff_status: pending`; non
+improvvisare il parere mancante, non dichiarare completato il passaggio e non superare un
+gate che dipende da quella capacità. Il lavoro indipendente può continuare, il gate dipendente
+resta `blocked` o `EVIDENZA_INSUFFICIENTE`. Il modulo che la contiene si installa a parte; il
+bundle completo `grl` le contiene tutte.
