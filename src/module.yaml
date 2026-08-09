@@ -4,13 +4,11 @@
 # Non modificare qui: le modifiche si fanno nella fonte e poi si rigenera.
 #
 # Questa è la copia che legge l'installer BMad: la cerca in src/module.yaml.
-# La copia in src/skills/gau-setup/assets/module.yaml resta per
-# l'installazione manuale via gau-setup: le due sono identiche.
 
 code: gau
 name: Guardrails Automation
 description: "Tredici figure Guardrails e i workflow necessari a instradare processi software, legali, fiscali, di design, architettura, medicina, web e paid media. `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo."
-module_version: 1.20.0
+module_version: 1.21.0
 default_selected: false
 
 module_greeting: >
@@ -25,7 +23,7 @@ module_greeting: >
 # memoria condivisa del progetto (_bmad/memory/grl-shared/project-profile.md).
 # La severità si deriva dalla criticità dichiarata nel profilo di progetto.
 #
-# La cartella della memoria condivisa NON va creata dal setup: la crea
+# La cartella della memoria condivisa NON va creata dall'installer: la crea
 # gau-profile alla prima esecuzione.
 #
 # Questo modulo è una porzione del bundle Guardrails (`grl`). Bundle e moduli
