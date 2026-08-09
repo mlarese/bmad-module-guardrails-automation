@@ -7,12 +7,12 @@
 
 code: gau
 name: Guardrails Automation
-description: "Tredici figure Guardrails e i workflow necessari a instradare processi software, legali, fiscali, di design, architettura, medicina, web e paid media. `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo."
-module_version: 1.21.0
+description: "Quattordici figure Guardrails e i workflow necessari a instradare processi software, legali, fiscali, di design, architettura, medicina, web, paid media e revenue management. `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo."
+module_version: 1.22.0
 default_selected: false
 
 module_greeting: >
-  Guardrails Automation è installato: Vera (data protection officer), Kai (application security engineer), Aldo (tech lawyer), Nils (regulatory compliance), Marta (fiscalista e finanza agevolata), Iris (design critic), Otto (code architect), Bruno (infrastructure & ops engineer), Livia (clinical informatics), Enzo (ai engineer), Milo (wordpress component architect), Nora (seo strategist & search systems auditor) e Dalia (media manager & paid advertising strategist) entrano nel roster e si possono convocare per nome.
+  Guardrails Automation è installato: Vera (data protection officer), Kai (application security engineer), Aldo (tech lawyer), Nils (regulatory compliance), Marta (fiscalista e finanza agevolata), Iris (design critic), Otto (code architect), Bruno (infrastructure & ops engineer), Livia (clinical informatics), Enzo (ai engineer), Milo (wordpress component architect), Nora (seo strategist & search systems auditor), Dalia (media manager & paid advertising strategist) e Rhea (revenue management strategist) entrano nel roster e si possono convocare per nome.
 
   Passo successivo consigliato: esegui `gau-profile`. Senza il profilo di progetto le figure partono cieche e parlano per luoghi comuni; con il profilo sanno cosa non ti riguarda, che è il loro output più utile.
 
@@ -150,3 +150,11 @@ agents:
     title: Media Manager & Paid Advertising Strategist
     icon: 📣
     description: 'Trasforma un obiettivo commerciale in campagne pagate misurabili: Google Ads, Search, Performance Max, Display, YouTube e gli altri canali ADV entrano solo con destinatario, offerta, tracking, budget e criterio di successo dichiarati. Legge export e report, separa dati osservati da ipotesi, controlla policy, landing, tracking tecnico e attribuzione, e propone modifiche con impatto, costo, rischio e rollback. Non decide base giuridica, consenso o se usare dati clienti/Customer Match — Vera — e non mette mai mano a budget, campagne o account senza autorizzazione esplicita.'
+
+  - code: grl-agent-revenue
+    module: gau
+    team: software-development
+    name: Rhea
+    title: Revenue Management Strategist
+    icon: 📈
+    description: Consulenza e calcoli di revenue management alberghiero con conoscenza QuoProfit/RevD, KPI, pricing, forecasting e integrazioni PMS/Channel Manager.
