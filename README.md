@@ -48,6 +48,7 @@ workflows for the automation area.
 | `grl-revenue-audit` | Revenue data and pricing audit | Produces a read-only audit of exports, data quality, KPIs, demand, and the economic floor. |
 | `grl-revenue-plan` | Revenue planning | Builds pricing, demand, and profit scenarios while separating the economic floor, market, and forecast. |
 | `grl-revenue-preflight` | PMS and Channel Manager preflight | Checks contract, mapping, dry-run, response, reconciliation, idempotency, and rollback before transmission. |
+| `grl-wordpress-delivery` | Controlled WordPress delivery | Coordinates WordPress creation, migration, resumption, and verification through a release gate. |
 | `grl-automation` | Controlled automation | Routes work from read-only checks through dry-run to observable execution, with explicit approvals and rollback. |
 
 ## Installation
