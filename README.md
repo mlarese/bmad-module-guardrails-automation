@@ -20,7 +20,7 @@ workflows for the automation area.
 | 📐 Nils | Regulatory Compliance | `grl-agent-compliance` | NIS2, DORA, EAA/WCAG, eIDAS, CRA, MDR, and sector-specific obligations. |
 | 🧾 Marta | Tax and Incentives Specialist | `grl-agent-fiscal` | Taxes, VAT, grants, incentives, tax credits, and reporting. |
 | 👁️ Iris | Design Critic | `grl-agent-ui-critic` | UI, landing pages, markup, CSS, typography, palettes, density, and layout. |
-| 🧱 Otto | Code Architect | `grl-agent-architecture` | Boundaries, folders, dependencies, interfaces, factories, and architectural layers. |
+| 🧱 Otto | Code Architect | `grl-agent-architecture` | Boundaries, folders, dependencies, interfaces, factories, architectural layers, and the architectural constraints of a story or spec. |
 | 🗄️ Dario | Database Architect & Designer | `grl-agent-database` | Data models, PostgreSQL, Oracle, MongoDB, Redis/Valkey, distributed SQL, NoSQL, search, analytics, time-series, graph, vector, and hybrid search. |
 | 🖥️ Bruno | Infrastructure & Ops Engineer | `grl-agent-ops` | Servers, VPS, Docker, CI/CD, deployment, TLS, backups, logs, and incidents. |
 | 🩺 Livia | Clinical Informatics | `grl-agent-health` | Clinical data, codes, HL7/FHIR/DICOM, clinical workflows, and patient safety. |
