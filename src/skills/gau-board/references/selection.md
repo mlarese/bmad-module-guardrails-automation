@@ -12,6 +12,8 @@ Chi entra e su quale segnale. Una figura entra solo se nell'artefatto — o nel 
 | Iris 👁️ | `grl-agent-ui-critic` | markup, CSS, screenshot, design system, landing o pagine viste dall'utente |
 | Nora 🔎 | `grl-agent-seo` | pagine indicizzabili e loro struttura, title e meta, URL e redirect, sitemap e robots.txt, dati strutturati, canonical e contenuti duplicati, Core Web Vitals, Search Console, calo di impression, crawler come GPTBot o ClaudeBot, llms.txt e AI Overviews |
 | Dalia 📣 | `grl-agent-ads` | account e campagne Google Ads/ADV, Search, Performance Max, Display e YouTube, audience paid, budget, conversioni, tracking, policy pubblicitarie, creatività e report di acquisizione |
+| Sofia 📱 | `grl-agent-social` | strategia social organica, pubblico, rubriche, calendario, post, caption, community, accessibilità editoriale e metriche organiche |
+| Marco 🎬 | `grl-agent-creative` | concept pubblicitari, hook, design creativo, script, storyboard, shot list, asset spec e varianti per post, Reel, TikTok e Shorts |
 | Otto 🧱 | `grl-agent-architecture` | struttura delle cartelle, confini fra moduli, strati di astrazione, direzione delle dipendenze, impatto strutturale di una feature |
 | Bruno 🖥️ | `grl-agent-ops` | Dockerfile e compose, manifest Kubernetes, configurazione di server e reverse proxy, accessi SSH, pipeline di deploy, dove sono conservati i segreti, backup, log e monitoraggio |
 | Livia 🩺 | `grl-agent-health` | cartella clinica, referto, prescrizione o terapia, anagrafica paziente, codifiche cliniche, integrazioni HL7/FHIR/DICOM, FSE o Sistema TS, prenotazioni sanitarie, telemedicina, portale del paziente, o comunque software usato dentro una struttura sanitaria |
@@ -39,6 +41,8 @@ Chi ha la competenza decisiva parla, gli altri tacciono anche quando il tema li 
 | Core Web Vitals | Nora (l'effetto in Search e la soglia) | Bruno se la causa è server, cache o CDN; Iris se è un'immagine o un font della pagina |
 | Crawler di modelli linguistici, llms.txt, citazioni in AI Overviews | Nora | Enzo, che resta sull'impianto delle applicazioni AI |
 | Campagna paid, conversioni Ads, budget, audience, creatività e test ADV | Dalia | Nora sull'organico; Iris sull'esecuzione visuale; `grl-web` sulla promessa e sull'ordine della landing |
+| Strategia organica, calendario, post, caption e metriche social | Sofia | Dalia sul paid; Marco sul concept e la produzione creativa; Nora sulla ricerca; Vera su dati e consenso |
+| Concept pubblicitario, video social, storyboard, shot list e varianti | Marco | Dalia su budget e distribuzione; Iris sull'identità visiva; Aldo su claim e diritti; Vera su dati e volti |
 | Tracking Ads, consenso, Customer Match e remarketing | Vera (dati e consenso), Dalia (mappatura tecnica Ads) | Kai se la superficie è esposta; Aldo/Nils se la base giuridica o il settore regolamentato sono in discussione |
 | Claim, diritti o settore regolamentato di una campagna pubblicitaria | Aldo/Nils | Dalia può segnalare la policy Ads e il rischio operativo, ma non sostituisce il parere legale o di compliance |
 | Una landing non converte: promessa, obiezione, prova, ordine dei blocchi | `grl-web` | Iris, che parla solo di come appare |
@@ -56,7 +60,7 @@ Una figura del roster che non è installata nel progetto non si convoca: applica
 ## Figure fuori da questo modulo
 
 Le tabelle qui sopra citano anche figure Guardrails che questo modulo non installa.
-Qui sono installate: Vera (grl-agent-privacy), Kai (grl-agent-security), Aldo (grl-agent-legal), Nils (grl-agent-compliance), Marta (grl-agent-fiscal), Iris (grl-agent-ui-critic), Otto (grl-agent-architecture), Bruno (grl-agent-ops), Livia (grl-agent-health), Enzo (grl-agent-ai), Milo (grl-agent-wordpress), Nora (grl-agent-seo), Dalia (grl-agent-ads), Rhea (grl-agent-revenue).
+Qui sono installate: Vera (grl-agent-privacy), Kai (grl-agent-security), Aldo (grl-agent-legal), Nils (grl-agent-compliance), Marta (grl-agent-fiscal), Iris (grl-agent-ui-critic), Otto (grl-agent-architecture), Bruno (grl-agent-ops), Livia (grl-agent-health), Enzo (grl-agent-ai), Milo (grl-agent-wordpress), Nora (grl-agent-seo), Dalia (grl-agent-ads), Sofia (grl-agent-social), Marco (grl-agent-creative), Rhea (grl-agent-revenue).
 
 Quando il tema appartiene a una figura assente, il confine resta valido: **dichiara che
 il tema esce dal perimetro, nomina la competenza che servirebbe e prosegui solo su ciò che
