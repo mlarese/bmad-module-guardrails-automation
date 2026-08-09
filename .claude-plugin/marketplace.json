@@ -1,13 +1,13 @@
 {
   "name": "guardrails-automation",
   "owner": "mlarese",
-  "description": "Guardrails Automation: orchestrazione di processi ripetitivi fra sviluppo software, legale, fisco, design, architettura, medicina, paid media e revenue management.",
+  "description": "Guardrails Automation: orchestrazione di processi ripetitivi fra sviluppo software, database, legale, fisco, design, architettura, medicina, paid media e revenue management.",
   "plugins": [
     {
       "name": "gau",
       "source": "./src",
-      "description": "Sedici figure Guardrails e quattordici workflow necessari a instradare processi software, legali, fiscali, di design, architettura, medicina, web, paid media, social/content, creative video e revenue management. I workflow social coprono strategia, calendario, contenuti e pacchetti creativi; i tre workflow revenue coprono audit, scenari di pricing e preflight PMS/Channel Manager; `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo.",
-      "version": "1.24.0",
+      "description": "Diciassette figure Guardrails e quattordici workflow necessari a instradare processi software, database, legali, fiscali, di design, architettura, medicina, web, paid media, social/content, creative video e revenue management. I workflow social coprono strategia, calendario, contenuti e pacchetti creativi; i tre workflow revenue coprono audit, scenari di pricing e preflight PMS/Channel Manager; `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo.",
+      "version": "1.25.0",
       "author": "mlarese",
       "homepage": "https://github.com/mlarese/bmad-module-guardrails-automation",
       "repository": "https://github.com/mlarese/bmad-module-guardrails-automation",
@@ -22,6 +22,7 @@
         "src/skills/grl-agent-fiscal",
         "src/skills/grl-agent-ui-critic",
         "src/skills/grl-agent-architecture",
+        "src/skills/grl-agent-database",
         "src/skills/grl-agent-ops",
         "src/skills/grl-agent-health",
         "src/skills/grl-agent-ai",

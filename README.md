@@ -1,6 +1,6 @@
 # Guardrails Automation (`gau`)
 
-A focused BMad module for routing repeatable processes across software, legal, tax, design, architecture, healthcare, web, paid media, social content, creative video, and revenue management.
+A focused BMad module for routing repeatable processes across software, databases, legal, tax, design, architecture, healthcare, web, paid media, social content, creative video, and revenue management.
 
 This is a focused BMad module in the [Guardrails](https://github.com/mlarese/bmad-module-guardrails)
 bundle. It keeps the same behavior and shared memory while installing only the figures and
@@ -21,6 +21,7 @@ workflows for the automation area.
 | 🧾 Marta | Tax and Incentives Specialist | `grl-agent-fiscal` | Taxes, VAT, grants, incentives, tax credits, and reporting. |
 | 👁️ Iris | Design Critic | `grl-agent-ui-critic` | UI, landing pages, markup, CSS, typography, palettes, density, and layout. |
 | 🧱 Otto | Code Architect | `grl-agent-architecture` | Boundaries, folders, dependencies, interfaces, factories, and architectural layers. |
+| 🗄️ Dario | Database Architect & Designer | `grl-agent-database` | Data models, PostgreSQL, Oracle, MongoDB, Redis/Valkey, distributed SQL, NoSQL, search, analytics, time-series, graph, vector, and hybrid search. |
 | 🖥️ Bruno | Infrastructure & Ops Engineer | `grl-agent-ops` | Servers, VPS, Docker, CI/CD, deployment, TLS, backups, logs, and incidents. |
 | 🩺 Livia | Clinical Informatics | `grl-agent-health` | Clinical data, codes, HL7/FHIR/DICOM, clinical workflows, and patient safety. |
 | 🧠 Enzo | AI Engineer | `grl-agent-ai` | LLMs, prompts, RAG, embeddings, tool calling, evaluations, costs, and latency. |
