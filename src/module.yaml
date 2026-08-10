@@ -7,12 +7,12 @@
 
 code: gau
 name: Guardrails Automation
-description: "Diciotto figure Guardrails e quattordici workflow necessari a instradare processi software, database, legali, fiscali, di design, architettura, medicina, web, WordPress, paid media, social/content, creative video e revenue management. I workflow social coprono strategia, calendario, contenuti e pacchetti creativi; i tre workflow revenue coprono audit, scenari di pricing e preflight PMS/Channel Manager; `grl-wordpress-delivery` porta un sito dal modello dei contenuti al release gate; `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo."
-module_version: 1.25.0
+description: "Diciannove figure Guardrails e quattordici workflow necessari a instradare processi software, database, firmware embedded, legali, fiscali, di design, architettura, medicina, web, WordPress, paid media, social/content, creative video e revenue management. I workflow social coprono strategia, calendario, contenuti e pacchetti creativi; i tre workflow revenue coprono audit, scenari di pricing e preflight PMS/Channel Manager; `grl-wordpress-delivery` porta un sito dal modello dei contenuti al release gate; `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo."
+module_version: 1.26.0
 default_selected: false
 
 module_greeting: >
-  Guardrails Automation è installato: Vera (data protection officer), Kai (application security engineer), Aldo (tech lawyer), Nils (regulatory compliance), Marta (fiscalista e finanza agevolata), Iris (design critic), Otto (code architect), Dario (database architect & designer), Bruno (infrastructure & ops engineer), Livia (clinical informatics), Enzo (ai engineer), Milo (wordpress component architect), Nora (seo strategist & search systems auditor), Dalia (media manager & paid advertising strategist), Sofia (social media & content strategist), Marco (advertising creative director & short-form video producer), Elio (ai image generation & post-production specialist) e Rhea (revenue management strategist) entrano nel roster e si possono convocare per nome.
+  Guardrails Automation è installato: Vera (data protection officer), Kai (application security engineer), Aldo (tech lawyer), Nils (regulatory compliance), Marta (fiscalista e finanza agevolata), Iris (design critic), Otto (code architect), Dario (database architect & designer), Ada (firmware engineer), Bruno (infrastructure & ops engineer), Livia (clinical informatics), Enzo (ai engineer), Milo (wordpress component architect), Nora (seo strategist & search systems auditor), Dalia (media manager & paid advertising strategist), Sofia (social media & content strategist), Marco (advertising creative director & short-form video producer), Elio (ai image generation & post-production specialist) e Rhea (revenue management strategist) entrano nel roster e si possono convocare per nome.
 
   Passo successivo consigliato: esegui `gau-profile`. Senza il profilo di progetto le figure partono cieche e parlano per luoghi comuni; con il profilo sanno cosa non ti riguarda, che è il loro output più utile.
 
@@ -110,6 +110,14 @@ agents:
     title: Database Architect & Designer
     icon: 🗄️
     description: Progetta modelli dati e architetture di persistenza per PostgreSQL, Oracle, MongoDB, Redis/Valkey e database relazionali, NoSQL, distribuiti, cache, search e vector con ricerca live, e porta ogni scelta a schema, failure mode, costo, benchmark e migrazione verificabile.
+
+  - code: grl-agent-firmware
+    module: gau
+    team: software-development
+    name: Ada
+    title: Firmware Engineer
+    icon: ⚙️
+    description: 'Scrive e revisiona firmware embedded per MCU e SoC: bring-up, startup, driver, registri, interrupt/DMA, RTOS, timing, memoria, test, debug e aggiornamenti sicuri; porta ogni modifica a una prova riproducibile e distingue i confini con sicurezza, compliance, operations e architettura.'
 
   - code: grl-agent-ops
     module: gau
