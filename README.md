@@ -1,6 +1,6 @@
 # Guardrails Automation (`gau`)
 
-A focused BMad module for routing repeatable processes across software, databases, legal, tax, design, architecture, healthcare, web, paid media, social content, creative video, AI image generation, revenue management, and product configuration.
+A focused BMad module for routing repeatable processes across software, databases, legal, tax, design, customer journeys, static and video-source scroll-driven visual storytelling from verified assets, search, architecture, healthcare, web, paid media, social content, creative video, AI image generation, revenue management, and product configuration.
 
 This is a focused BMad module in the [Guardrails](https://github.com/mlarese/bmad-module-guardrails)
 bundle. It keeps the same behavior and shared memory while installing only the figures and
@@ -35,6 +35,7 @@ workflows for the automation area.
 | 🖼️ Elio | AI Image Generation & Post-production Specialist | `grl-agent-imaging` | Nano Banana, Imagen, GPT Image, Photoshop, prompts, masks, subject consistency, provenance, and export. |
 | 📈 Rhea | Revenue Management Strategist | `grl-agent-revenue` | Occupancy, ADR, RevPAR, TRevPAR, NRevPAR, GOPPAR, MUP, MOL, pickup, forecasting, pricing, PMS, and Channel Manager. |
 | 🔩 Ines | Product Configuration Specialist | `grl-agent-product-config` | RFQs, tender specs, customer documents, product options and variants, compatibility rules, product catalogs, and CPQ. |
+| 🧭 Marea | Customer Journey & Visual Storytelling Strategist | `grl-agent-customer-journey` | Client story, location, business placement, customer journeys, visual narratives, static and video-source scroll cinematics, timecode/frame plans, online asset sources and rights gates, and contextual search systems; no upload or publication is implicit. |
 
 ## Skills and workflows
 
