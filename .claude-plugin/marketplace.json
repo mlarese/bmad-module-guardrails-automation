@@ -7,7 +7,7 @@
       "name": "gau",
       "source": "./src",
       "description": "Ventidue figure Guardrails e diciassette workflow necessari a instradare processi software, database, punti di blocco, firmware embedded, diagnosi di bug e regressioni, legali, fiscali, di design, customer journey, visual storytelling, landing scroll-driven statiche, ricerca di sorgenti video e pacchetti di frame, piani video-to-scroll da sorgenti autorizzate, search system, architettura, medicina, web, WordPress, paid media, social/content, creative video, revenue management e configurazione di prodotto. I workflow social coprono strategia, calendario, contenuti e pacchetti creativi; i tre workflow revenue coprono audit, scenari di pricing e preflight PMS/Channel Manager; `grl-bug-finder` costruisce riproduzioni, evidenze e test di regressione senza correggere; `grl-wordpress-delivery` porta un sito dal modello dei contenuti al release gate; `grl-video-to-scroll` raccoglie contesto, verifica sorgenti ed estrae frame solo da file locali autorizzati; `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo; `grl-toolchain` trova, valuta e installa skill e server MCP su ogni harness con la sintassi di quell'harness.",
-      "version": "1.31.0",
+      "version": "1.32.0",
       "author": "mlarese",
       "homepage": "https://github.com/mlarese/bmad-module-guardrails-automation",
       "repository": "https://github.com/mlarese/bmad-module-guardrails-automation",
