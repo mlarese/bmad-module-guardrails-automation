@@ -1,6 +1,6 @@
 # Guardrails Automation (`gau`)
 
-A focused BMad module for routing repeatable processes across software, databases, legal, tax, design, customer journeys, static and video-source scroll-driven visual storytelling from verified assets, search, architecture, healthcare, web, paid media, social content, creative video, AI image generation, revenue management, and product configuration.
+A focused BMad module for routing repeatable processes across software, databases, legal, tax, design, customer journeys, static and video-source scroll-driven visual storytelling from verified assets, licensed video sourcing and frame packages, search, architecture, healthcare, web, paid media, social content, creative video, AI image generation, revenue management, and product configuration.
 
 This is a focused BMad module in the [Guardrails](https://github.com/mlarese/bmad-module-guardrails)
 bundle. It keeps the same behavior and shared memory while installing only the figures and
@@ -47,6 +47,7 @@ workflows for the automation area.
 | `grl-fiscal-updates` | Live fiscal updates | Searches primary sources for tax rules, circulars, grants, incentives, amendments, and deadlines in a defined period. |
 | `grl-mdsw` | Medical-device qualification | Assesses whether a software feature has a medical purpose and identifies the relevant MDR scope and planning impact. |
 | `grl-web` | Web experience delivery | Moves landing pages and websites from a conversion brief through visual review, accessibility, SEO, and delivery. |
+| `grl-video-to-scroll` | Video-to-scroll frame packages | Collects the customer journey, searches for usable video sources, extracts authorized local frames, and hands a validated scroll specification to web delivery. |
 | `grl-ads` | Paid media operations | Audits, plans, tracks, optimizes, preflights, and applies paid-media change sets behind approval and rollback gates. |
 | `grl-social` | Organic social strategy | Builds social strategies, calendars, content, audits, and measurement plans without scheduling or publishing. |
 | `grl-social-creative` | Social creative production | Turns a brief into producible concepts, scripts, storyboards, shot lists, specifications, and channel variants. |
