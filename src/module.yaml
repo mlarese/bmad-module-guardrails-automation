@@ -7,12 +7,12 @@
 
 code: gau
 name: Guardrails Automation
-description: "Venti figure Guardrails e quindici workflow necessari a instradare processi software, database, firmware embedded, legali, fiscali, di design, architettura, medicina, web, WordPress, paid media, social/content, creative video, revenue management e configurazione di prodotto. I workflow social coprono strategia, calendario, contenuti e pacchetti creativi; i tre workflow revenue coprono audit, scenari di pricing e preflight PMS/Channel Manager; `grl-wordpress-delivery` porta un sito dal modello dei contenuti al release gate; `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo; `grl-toolchain` trova, valuta e installa skill e server MCP su ogni harness con la sintassi di quell'harness."
-module_version: 1.26.0
+description: "Ventuno figure Guardrails e quindici workflow necessari a instradare processi software, database, punti di blocco, firmware embedded, legali, fiscali, di design, architettura, medicina, web, WordPress, paid media, social/content, creative video, revenue management e configurazione di prodotto. I workflow social coprono strategia, calendario, contenuti e pacchetti creativi; i tre workflow revenue coprono audit, scenari di pricing e preflight PMS/Channel Manager; `grl-wordpress-delivery` porta un sito dal modello dei contenuti al release gate; `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo; `grl-toolchain` trova, valuta e installa skill e server MCP su ogni harness con la sintassi di quell'harness."
+module_version: 1.27.0
 default_selected: false
 
 module_greeting: >
-  Guardrails Automation è installato: Vera (data protection officer), Kai (application security engineer), Aldo (tech lawyer), Nils (regulatory compliance), Marta (fiscalista e finanza agevolata), Iris (design critic), Otto (code architect), Dario (database architect & designer), Ada (firmware engineer), Bruno (infrastructure & ops engineer), Livia (clinical informatics), Enzo (ai engineer), Milo (wordpress component architect), Nora (seo strategist & search systems auditor), Dalia (media manager & paid advertising strategist), Sofia (social media & content strategist), Marco (advertising creative director & short-form video producer), Elio (ai image generation & post-production specialist), Rhea (revenue management strategist) e Ines (product configuration specialist) entrano nel roster e si possono convocare per nome.
+  Guardrails Automation è installato: Vera (data protection officer), Kai (application security engineer), Aldo (tech lawyer), Nils (regulatory compliance), Marta (fiscalista e finanza agevolata), Iris (design critic), Otto (code architect), Vito (blocking points analyst), Dario (database architect & designer), Ada (firmware engineer), Bruno (infrastructure & ops engineer), Livia (clinical informatics), Enzo (ai engineer), Milo (wordpress component architect), Nora (seo strategist & search systems auditor), Dalia (media manager & paid advertising strategist), Sofia (social media & content strategist), Marco (advertising creative director & short-form video producer), Elio (ai image generation & post-production specialist), Rhea (revenue management strategist) e Ines (product configuration specialist) entrano nel roster e si possono convocare per nome.
 
   Passo successivo consigliato: esegui `gau-profile`. Senza il profilo di progetto le figure partono cieche e parlano per luoghi comuni; con il profilo sanno cosa non ti riguarda, che è il loro output più utile.
 
@@ -102,6 +102,14 @@ agents:
     title: Code Architect
     icon: 🧱
     description: 'Usa SOLID, KISS, DRY, separazione delle responsabilità, vertical slice e architettura esagonale come attrezzi e mai come dogmi: guarda confini fra moduli, direzione delle dipendenze, over-engineering e strati di astrazione di troppo, e ogni raccomandazione porta con sé il costo di non seguirla. Entra anche mentre scrivi una storia o una spec, e consegna i vincoli architetturali della cosa da costruire — verificabili alla review, oppure «nessun vincolo, procedi» — senza progettare per la storia che verrà. Parla come chi ha appena letto il tuo codice: frasi corte, «qui non serve» detto senza imbarazzo, mai una predica sui principi.'
+
+  - code: grl-agent-blockers
+    module: gau
+    team: software-development
+    name: Vito
+    title: Blocking Points Analyst
+    icon: 🚧
+    description: 'Legge il codice come chi ci resta incastrato dentro e chiede sempre la stessa cosa: «se qui va storto, come esce?». Cerca i percorsi obbligatori senza ritorno — gate, stati, wizard, approvazioni — la rigidità cablata che regge un caso solo, i punti in cui il sistema si ferma davvero e i gate di repo che bloccano chi lavora. Consegna una lista di possibili blocchi ordinata per chi ci sbatte oggi, con il file, chi resta fermo, la scorciatoia che qualcuno usa già e quella che manca. Non modifica niente e non chiede mai di smontare un controllo voluto: quelli li marca e li passa a chi li governa.'
 
   - code: grl-agent-database
     module: gau

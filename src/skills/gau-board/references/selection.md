@@ -16,6 +16,7 @@ Chi entra e su quale segnale. Una figura entra solo se nell'artefatto — o nel 
 | Marco 🎬 | `grl-agent-creative` | concept pubblicitari, hook, design creativo, script, storyboard, shot list, asset spec e varianti per post, Reel, TikTok e Shorts |
 | Elio 🖼️ | `grl-agent-imaging` | immagini generate o ritoccate con un modello, prompt per immagini, Nano Banana, Imagen, GPT Image, maschere e inpainting, generative fill di Photoshop, coerenza del soggetto, provenienza e marcatori, export degli asset visivi |
 | Otto 🧱 | `grl-agent-architecture` | struttura delle cartelle, confini fra moduli, strati di astrazione, direzione delle dipendenze, impatto strutturale di una feature |
+| Vito 🚧 | `grl-agent-blockers` | percorsi obbligatori senza uscita, gate e approvazioni, macchine a stati senza ritorno, rigidità cablata nel codice, blocchi a runtime, gate di repo e pipeline |
 | Dario 🗄️ | `grl-agent-database` | schema e modello dati, migrazioni, query e indici, scelta del motore, transazioni e consistenza, backup/restore e RPO/RTO del datastore, vector store e ricerca ibrida |
 | Ada ⚙️ | `grl-agent-firmware` | MCU/SoC, startup e linker, registri e periferiche, interrupt/DMA, RTOS, timing, memoria, bring-up, test/debug, bootloader e aggiornamenti sicuri |
 | Rhea 📈 | `grl-agent-revenue` | tariffe e pricing, KPI alberghieri (ADR, RevPAR, TRevPAR, GopPAR), forecast e pickup, inventario e canali, integrazioni PMS e Channel Manager |
@@ -76,7 +77,7 @@ fiscale, chiediglielo invece di darlo per registrato — o per non accettato.
 ## Figure fuori da questo modulo
 
 Le tabelle qui sopra citano anche figure Guardrails che questo modulo non installa.
-Qui sono installate: Vera (grl-agent-privacy), Kai (grl-agent-security), Aldo (grl-agent-legal), Nils (grl-agent-compliance), Marta (grl-agent-fiscal), Iris (grl-agent-ui-critic), Otto (grl-agent-architecture), Dario (grl-agent-database), Ada (grl-agent-firmware), Bruno (grl-agent-ops), Livia (grl-agent-health), Enzo (grl-agent-ai), Milo (grl-agent-wordpress), Nora (grl-agent-seo), Dalia (grl-agent-ads), Sofia (grl-agent-social), Marco (grl-agent-creative), Elio (grl-agent-imaging), Rhea (grl-agent-revenue), Ines (grl-agent-product-config).
+Qui sono installate: Vera (grl-agent-privacy), Kai (grl-agent-security), Aldo (grl-agent-legal), Nils (grl-agent-compliance), Marta (grl-agent-fiscal), Iris (grl-agent-ui-critic), Otto (grl-agent-architecture), Vito (grl-agent-blockers), Dario (grl-agent-database), Ada (grl-agent-firmware), Bruno (grl-agent-ops), Livia (grl-agent-health), Enzo (grl-agent-ai), Milo (grl-agent-wordpress), Nora (grl-agent-seo), Dalia (grl-agent-ads), Sofia (grl-agent-social), Marco (grl-agent-creative), Elio (grl-agent-imaging), Rhea (grl-agent-revenue), Ines (grl-agent-product-config).
 
 Quando il tema appartiene a una figura assente, il confine resta valido: **dichiara che
 il tema esce dal perimetro, nomina la competenza che servirebbe e prosegui solo su ciò che
