@@ -1,6 +1,6 @@
 # Guardrails Automation (`gau`)
 
-A focused BMad module for routing repeatable processes across software, databases, legal, tax, design, architecture, healthcare, web, paid media, social content, creative video, and revenue management.
+A focused BMad module for routing repeatable processes across software, databases, legal, tax, design, architecture, healthcare, web, paid media, social content, creative video, AI image generation, and revenue management.
 
 This is a focused BMad module in the [Guardrails](https://github.com/mlarese/bmad-module-guardrails)
 bundle. It keeps the same behavior and shared memory while installing only the figures and
@@ -30,6 +30,7 @@ workflows for the automation area.
 | 📣 Dalia | Media Manager & Paid Advertising Strategist | `grl-agent-ads` | Google Ads, paid advertising, audiences, creative, tracking, consent, budgets, and policies. |
 | 📱 Sofia | Social Media & Content Strategist | `grl-agent-social` | Organic strategy, content pillars, calendars, posts, captions, community, and metrics. |
 | 🎬 Marco | Advertising Creative Director & Short-form Video Producer | `grl-agent-creative` | Advertising concepts, design, scripts, storyboards, shot lists, Reels, TikToks, and Shorts. |
+| 🖼️ Elio | AI Image Generation & Post-production Specialist | `grl-agent-imaging` | Nano Banana, Imagen, GPT Image, Photoshop, prompts, masks, subject consistency, provenance, and export. |
 | 📈 Rhea | Revenue Management Strategist | `grl-agent-revenue` | Occupancy, ADR, RevPAR, TRevPAR, NRevPAR, GOPPAR, MUP, MOL, pickup, forecasting, pricing, PMS, and Channel Manager. |
 
 ## Skills and workflows

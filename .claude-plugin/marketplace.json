@@ -6,7 +6,7 @@
     {
       "name": "gau",
       "source": "./src",
-      "description": "Diciassette figure Guardrails e quattordici workflow necessari a instradare processi software, database, legali, fiscali, di design, architettura, medicina, web, WordPress, paid media, social/content, creative video e revenue management. I workflow social coprono strategia, calendario, contenuti e pacchetti creativi; i tre workflow revenue coprono audit, scenari di pricing e preflight PMS/Channel Manager; `grl-wordpress-delivery` porta un sito dal modello dei contenuti al release gate; `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo.",
+      "description": "Diciotto figure Guardrails e quattordici workflow necessari a instradare processi software, database, legali, fiscali, di design, architettura, medicina, web, WordPress, paid media, social/content, creative video e revenue management. I workflow social coprono strategia, calendario, contenuti e pacchetti creativi; i tre workflow revenue coprono audit, scenari di pricing e preflight PMS/Channel Manager; `grl-wordpress-delivery` porta un sito dal modello dei contenuti al release gate; `grl-automation` porta ogni richiesta da intake e read-only a piano, dry-run, approvazioni, esecuzione osservabile e rollback, senza trasformare un agente in un esecutore autonomo.",
       "version": "1.25.0",
       "author": "mlarese",
       "homepage": "https://github.com/mlarese/bmad-module-guardrails-automation",
@@ -31,6 +31,7 @@
         "src/skills/grl-agent-ads",
         "src/skills/grl-agent-social",
         "src/skills/grl-agent-creative",
+        "src/skills/grl-agent-imaging",
         "src/skills/grl-agent-revenue",
         "src/skills/grl-legal-updates",
         "src/skills/grl-fiscal-updates",
