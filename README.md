@@ -52,6 +52,7 @@ workflows for the automation area.
 | `grl-revenue-preflight` | PMS and Channel Manager preflight | Checks contract, mapping, dry-run, response, reconciliation, idempotency, and rollback before transmission. |
 | `grl-wordpress-delivery` | Controlled WordPress delivery | Coordinates WordPress creation, migration, resumption, and verification through a release gate. |
 | `grl-automation` | Controlled automation | Routes work from read-only checks through dry-run to observable execution, with explicit approvals and rollback. |
+| `grl-toolchain` | Skills and MCP servers across harnesses | Finds and assesses skills and MCP servers, then installs them in each harness's own syntax behind a dry-run, a backup, and a verification step. |
 
 ## Installation
 
