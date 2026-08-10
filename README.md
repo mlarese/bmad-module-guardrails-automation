@@ -53,6 +53,7 @@ workflows for the automation area.
 | `grl-revenue-plan` | Revenue planning | Builds pricing, demand, and profit scenarios while separating the economic floor, market, and forecast. |
 | `grl-revenue-preflight` | PMS and Channel Manager preflight | Checks contract, mapping, dry-run, response, reconciliation, idempotency, and rollback before transmission. |
 | `grl-wordpress-delivery` | Controlled WordPress delivery | Coordinates WordPress creation, migration, resumption, and verification through a release gate. |
+| `grl-bug-finder` | Bug and regression diagnosis | Builds a minimal reproduction, traces the failure path, separates evidence from hypotheses, and proposes a regression test without changing the artifact. |
 | `grl-automation` | Controlled automation | Routes work from read-only checks through dry-run to observable execution, with explicit approvals and rollback. |
 | `grl-toolchain` | Skills and MCP servers across harnesses | Finds and assesses skills and MCP servers, then installs them in each harness's own syntax behind a dry-run, a backup, and a verification step. |
 
