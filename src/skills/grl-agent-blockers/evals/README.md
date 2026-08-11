@@ -60,7 +60,7 @@ un giudice per caso.
 | baseline su `rigidita-senza-secondo-caso` | skill 5/5, modello nudo 4/5 — la baseline motiva l'IVA con la duplicazione senza nominare il secondo caso |
 
 L'unico criterio fallito è stato quello delle voci escluse in `lista-lunga`: la risposta si era
-fermata a sette voci in tabella e poi aveva rienumerato tutte le escluse sotto quattro
+fermata a sette voci in tabella e poi aveva rienumerato tutte e ventitré le escluse sotto quattro
 sottotitoli, rimettendo in campo la lista appena tagliata. La causa era nel `SKILL.md` — «dichiara
 quanti restano e di che tipo» invita a elencarli per tipo — ed è stata corretta lì e in
 `references/scansione-completa.md`. Il criterio di rubric adesso lo dice esplicito, perché un
