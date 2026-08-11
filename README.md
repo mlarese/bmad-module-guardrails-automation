@@ -35,6 +35,7 @@ workflows for the automation area.
 | 🖼️ Elio | AI Image Generation & Post-production Specialist | `grl-agent-imaging` | Nano Banana, Imagen, GPT Image, Photoshop, prompts, masks, subject consistency, provenance, and export. |
 | 📈 Rhea | Revenue Management Strategist | `grl-agent-revenue` | Occupancy, ADR, RevPAR, TRevPAR, NRevPAR, GOPPAR, MUP, MOL, pickup, forecasting, pricing, PMS, and Channel Manager. |
 | 🔩 Ines | Product Configuration Specialist | `grl-agent-product-config` | RFQs, tender specs, customer documents, product options and variants, compatibility rules, product catalogs, and CPQ. |
+| 📋 Tito | Issue Triage & Backlog Steward | `grl-agent-issues` | GitHub issues, backlog and triage, work states, readiness before development, hold signals, recorded decisions, duplicates, and dependencies. |
 | 🧭 Marea | Customer Journey & Visual Storytelling Strategist | `grl-agent-customer-journey` | Client story, location, business placement, landing/home page reference packages, ordered sections, CTAs, curtain/gallery cinematics, customer journeys, visual narratives, static and video-source scroll cinematics, timecode/frame plans, online asset sources and rights gates, and contextual search systems; no upload or publication is implicit. |
 
 ## Skills and workflows
@@ -56,6 +57,9 @@ workflows for the automation area.
 | `grl-revenue-preflight` | PMS and Channel Manager preflight | Checks contract, mapping, dry-run, response, reconciliation, idempotency, and rollback before transmission. |
 | `grl-wordpress-delivery` | Controlled WordPress delivery | Coordinates WordPress creation, migration, resumption, and verification through a release gate. |
 | `grl-bug-finder` | Bug and regression diagnosis | Builds a minimal reproduction, traces the failure path, separates evidence from hypotheses, and proposes a regression test without changing the artifact. |
+| `grl-issues` | GitHub issue registry | Keeps a dated local registry of open issues with one work state each and the decisions taken on the backlog, syncs incrementally, and opens and closes work sessions. It reads GitHub only. |
+| `grl-issue-readiness` | Issue readiness check | Applies seven criteria with citations, detects who already asked to wait, and publishes a single recognizable clarification comment after explicit confirmation. |
+| `grl-issue-verify` | Issue closing verification | Maps every acceptance criterion onto the diff with file-and-line evidence, flags work no criterion asked for, and authorizes closing only when every criterion is covered. |
 | `grl-automation` | Controlled automation | Routes work from read-only checks through dry-run to observable execution, with explicit approvals and rollback. |
 | `grl-toolchain` | Skills and MCP servers across harnesses | Finds and assesses skills and MCP servers, then installs them in each harness's own syntax behind a dry-run, a backup, and a verification step. |
 
